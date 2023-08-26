@@ -8,6 +8,6 @@ public class Controller {
 
     @GetMapping("/")
     public String caoKudi(){
-        return "KUDI KUDI KUDI";
+        return "VOLI TE TVOJ KUDI KUDI KUDI :* :*";
     }
 }
