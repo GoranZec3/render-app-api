@@ -10,4 +10,10 @@ public class Controller {
     public String caoKudi(){
         return "VOLI TE TVOJ KUDI KUDI KUDI :* :*";
     }
+
+    @GetMapping("/next")
+    public String nextPage(){
+        return "this is next page";
+    }
+
 }
