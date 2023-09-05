@@ -16,4 +16,9 @@ public class Controller {
         return "this is next page";
     }
 
+    @GetMapping("/kudi")
+    public String kudi(){
+        return "home";
+    }
+
 }
